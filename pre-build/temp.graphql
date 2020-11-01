@@ -1,0 +1,6 @@
+
+mutation MyMutation {
+  addITaskStore(input: [{tasks: [{id: "test", title: "test"}], selectedTask: "test"}]) {
+    numUids
+  }
+}
